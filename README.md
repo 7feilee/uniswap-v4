@@ -28,6 +28,19 @@ This project provides a Go-based JSON-RPC server/client that interacts with the 
 
 Following the readme in [github](https://github.com/7feilee/v4-template/blob/main/README.md#local-development-anvil).
 
+Keep a copy of the contract address for later ing the address in the RPC server and client code.
+
+for example:
+```bash
+== Logs ==
+  manager contract deployed at: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+  Hook contract deployed at: 0x85Fdc1D643EE6152765CD0c72c2434be2C238aC0
+  lpRouter contract deployed at: 0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0
+  swapRouter contract deployed at: 0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9
+  donateRouter contract deployed at: 0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9
+  token0 contract deployed at: 0xC7f2Cf4845C6db0e1a1e91ED41Bcd0FcC1b0E141
+  token1 contract deployed at: 0xdaE97900D4B184c5D2012dcdB658c008966466DD
+```
 
 
 ### 2. Clone the RPC Repository
