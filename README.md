@@ -48,15 +48,7 @@ go mod tidy
 This will download and install the necessary Go dependencies.
 
 
-### 4. Create a Keystore Directory
-
-Create a directory to store Ethereum keystore files (private keys):
-
-```bash
-mkdir keystore
-```
-
-### 5. Run the JSON-RPC Server
+### 4. Run the JSON-RPC Server
 
 Start the JSON-RPC server:
 
@@ -66,7 +58,7 @@ go run main.go
 
 This will start the server on `http://localhost:8080`.
 
-### 6. Use the Client CLI
+### 5. Use the Client CLI
 
 Use the provided client CLI to interact with the JSON-RPC server. Here are a few example commands:
 
@@ -85,8 +77,8 @@ go run client-cli/client.go -cmd provide -from 0xYourAddress -password YourPassw
 ```
 
 short example in the anvil test environment (Please change the contract address in command-line flags).
-bash
-```
+
+```bash
 go run client-cli/client.go -cmd provide -from 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 -password TEST_abc123
 ```
 
@@ -102,7 +94,7 @@ short example in the anvil test environment (Please change the contract address 
 go run client-cli/client.go -cmd swap -from 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266 -password TEST_abc123 -amount  1000000
 ```
 
-### 7. Running Tests
+### 6. Running Tests
 
 To run unit tests:
 
